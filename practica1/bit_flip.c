@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 
-// Modelo NRZ de la practica: 1 -> +5 V y 0 -> -5 V.
+
 void transmitir_bit_nrz(int bit) {
     if (bit == 1) {
         printf("[ +5V ] ");
